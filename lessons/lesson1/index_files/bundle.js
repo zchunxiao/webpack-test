@@ -1,0 +1,1 @@
+(()=>{var o={237:o=>{o.exports={demo:function(o){console.log("hello world:",JSON.stringify(o))}}}},r={};!function e(t){var n=r[t];if(void 0!==n)return n.exports;var s=r[t]={exports:{}};return o[t](s,s.exports,e),s.exports}(237)})();
