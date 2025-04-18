@@ -1,0 +1,1 @@
+var MyLibrary;(()=>{var r={237:r=>{r.exports={greet:function(r){console.log(`Hello, ${r}!`)},farewell:function(r){console.log(`Goodbye, ${r}!`)}}}},o={},e=function e(t){var n=o[t];if(void 0!==n)return n.exports;var l=o[t]={exports:{}};return r[t](l,l.exports,e),l.exports}(237);MyLibrary=e})();
