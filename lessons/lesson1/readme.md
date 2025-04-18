@@ -1,4 +1,4 @@
-
+# libraryTarget(commonjs2)
 
 # 创建 webpack.config.js 配置文件
 

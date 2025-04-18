@@ -1,4 +1,4 @@
-# webpack
+# webpack5
 
 这里只安装 webpack,不安装 webpack-cli。不安装 webpack-cli 是因为 webpack-cli 是 webpack 的命令行工具，而 webpack 本身是一个模块打包工具，它本身并不提供命令行工具。因此，如果你只是想使用 webpack 进行模块打包，那么只需要安装 webpack 即可。
 
@@ -28,6 +28,12 @@ webpack 的 libraryTarget 选项用于指定输出库的格式，它有以下几
 - global：将库暴露为一个全局变量，可以在 Node.js 环境中访问。
 - jsonp：将库暴露为一个 JSONP 模块，可以在浏览器环境中访问。
   ![alt text](image.png)
+
+## 如何设置 libraryTarget
+
+- 能够在浏览器和 Node.js 中都能使用，可以选择 umd。
+- 如果只需要在浏览器中使用，可以选择 var 或 window
+- 如果只需要在 Node.js 中使用，可以选择 commonjs 或 commonjs2
 
 ## commonjs2 和 commonjs 的区别
 
@@ -66,3 +72,7 @@ webpack 的 mode 选项用于指定构建模式，它有以下几个选项：
 webpack 的 entry 选项用于指定入口文件，它有以下几个选项：
 
 - string：指定一个入口文件，例如 './src/index.js'。webpack 会从这个文件开始构建依赖图。
+
+# libraryTarget(umd）
+
+## amd

@@ -1,0 +1,1 @@
+(()=>{var r={574:r=>{r.exports=function(){console.log("App Page")}}},o={};!function e(t){var n=o[t];if(void 0!==n)return n.exports;var p=o[t]={exports:{}};return r[t](p,p.exports,e),p.exports}(574)})();
