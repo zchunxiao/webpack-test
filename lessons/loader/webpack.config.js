@@ -59,7 +59,7 @@ export default {
     }),
   ],
   devServer: {
-    static: path.resolve(__dirname, 'dist'),
+    static: path.join(__dirname, 'dist'),
     compress: true,
     port: 9000,
     open: true,
