@@ -1,5 +1,7 @@
 # webpack5
 
+[文档](https://webpack.docschina.org/)
+
 这里只安装 webpack,不安装 webpack-cli。不安装 webpack-cli 是因为 webpack-cli 是 webpack 的命令行工具，而 webpack 本身是一个模块打包工具，它本身并不提供命令行工具。因此，如果你只是想使用 webpack 进行模块打包，那么只需要安装 webpack 即可。
 
 # 安装
