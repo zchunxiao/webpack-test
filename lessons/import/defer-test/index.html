@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Defer</title>
+    <script defer src="normal.js"></script>
+    <!-- 普通脚本 -->
+    <script src="deferred.js"></script>
+    <!-- 带 defer 的脚本 -->
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <script>
+      console.log("Inline script executed"); // 内联脚本
+    </script>
+  </body>
+</html>

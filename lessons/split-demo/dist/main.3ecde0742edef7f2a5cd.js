@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Module A"),console.log("Module B"),console.log("Shared Function"),loadModuleA(),loadModuleB()})();

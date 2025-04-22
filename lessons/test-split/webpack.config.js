@@ -18,5 +18,10 @@ module.exports = {
     filename: '[name]-bundle.js',
     clean: true
   },
-
+  // optimization: {
+  //   //runtimeChunk: 'single',
+  //   splitChunks: {
+  //     chunks: 'all',
+  //   }
+  // },
 }

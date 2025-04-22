@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktest=self.webpackChunktest||[]).push([[332],{496:(e,o,s)=>{s.d(o,{A:()=>t});var l=s(543),n=s.n(l);function t(){console.log("I get called from print.js!")}console.log(n().join(["Another","module","loaded!"]," "))}},e=>{e(e.s=496)}]);
