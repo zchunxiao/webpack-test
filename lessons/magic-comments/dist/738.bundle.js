@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmagic_comments=self.webpackChunkmagic_comments||[]).push([[738],{413:(e,n,o)=>{function c(){console.log("Doing something!")}o.r(n),o.d(n,{doSomething:()=>c})}}]);
